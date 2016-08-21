@@ -1,0 +1,12 @@
+minibug is a simple menu style debugger for assembler code. It runs in
+a Linux terminal. It reads ELF executables and will show
+symbols if present.
+
+QUICK START
+ 1. minibug is contained in a single file and can be copied to
+    a "bin" directory or used locally with "./minibug"
+ 2. start debugging with:  minibug <executable>
+
+To create an assembler file with symbols use:
+ nasm -felf32 -g your_file.asm
+ ld -melf_i386 -o your_file.o

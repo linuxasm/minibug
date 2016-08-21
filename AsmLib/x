@@ -1,0 +1,829 @@
+./make_syscall
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/syscall'
+touch *.asm
+nasm -felf  sys_access.asm
+nasm -felf  sys_nanosleep.asm
+nasm -felf  sys_acct.asm
+nasm -felf  sys__newselect.asm
+nasm -felf  sys_add_key.asm
+nasm -felf  sys_nfsservctl.asm
+nasm -felf  sys_adjtimex.asm
+nasm -felf  sys_nice.asm
+nasm -felf  sys_afs_syscall.asm
+nasm -felf  sys_oldfstat.asm
+nasm -felf  sys_alarm.asm
+nasm -felf  sys_oldlstat.asm
+nasm -felf  sys_bdflush.asm
+nasm -felf  sys_oldolduname.asm
+nasm -felf  sys_break.asm
+nasm -felf  sys_oldstat.asm
+nasm -felf  sys_brk.asm
+nasm -felf  sys_olduname.asm
+nasm -felf  sys_capget.asm
+nasm -felf  sys_open.asm
+nasm -felf  sys_capset.asm
+nasm -felf  sys_openat.asm
+nasm -felf  sys_chdir.asm
+nasm -felf  sys_pause.asm
+nasm -felf  sys_chmod.asm
+nasm -felf  sys_personality.asm
+nasm -felf  sys_chown32.asm
+nasm -felf  sys_pipe2.asm
+nasm -felf  sys_chown.asm
+nasm -felf  sys_pipe.asm
+nasm -felf  sys_chroot.asm
+nasm -felf  sys_pivot_root.asm
+nasm -felf  sys_clone.asm
+nasm -felf  sys_poll.asm
+nasm -felf  sys_close.asm
+nasm -felf  sys_ppoll.asm
+nasm -felf  sys_creat.asm
+nasm -felf  sys_prctl.asm
+nasm -felf  sys_create_module.asm
+nasm -felf  sys_pread64.asm
+nasm -felf  sys_delete_module.asm
+nasm -felf  sys_prof.asm
+nasm -felf  sys_dup2.asm
+nasm -felf  sys_profil.asm
+nasm -felf  sys_dup3.asm
+nasm -felf  sys_pselect6.asm
+nasm -felf  sys_dup.asm
+nasm -felf  sys_ptrace.asm
+nasm -felf  sys_epoll_create1.asm
+nasm -felf  sys_putpmsg.asm
+nasm -felf  sys_epoll_create.asm
+nasm -felf  sys_pwrite64.asm
+nasm -felf  sys_epoll_ctl.asm
+nasm -felf  sys_query_module.asm
+nasm -felf  sys_epoll_pwait.asm
+nasm -felf  sys_quotactl.asm
+nasm -felf  sys_epoll_wait.asm
+nasm -felf  sys_readahead.asm
+nasm -felf  sys_eventfd2.asm
+nasm -felf  sys_read.asm
+nasm -felf  sys_eventfd.asm
+nasm -felf  sys_readdir.asm
+nasm -felf  sys_execve.asm
+nasm -felf  sys_readlink.asm
+nasm -felf  sys_exit.asm
+nasm -felf  sys_readlinkat.asm
+nasm -felf  sys_exit_group.asm
+nasm -felf  sys_readv.asm
+nasm -felf  sys_faccessat.asm
+nasm -felf  sys_reboot.asm
+nasm -felf  sys_fadvise64_64.asm
+nasm -felf  sys_remap_file_pages.asm
+nasm -felf  sys_fadvise64.asm
+nasm -felf  sys_removexattr.asm
+nasm -felf  sys_fallocate.asm
+nasm -felf  sys_rename.asm
+nasm -felf  sys_fchdir.asm
+nasm -felf  sys_renameat.asm
+nasm -felf  sys_fchmod.asm
+nasm -felf  sys_request_key.asm
+nasm -felf  sys_fchmodat.asm
+nasm -felf  sys_restart_syscall.asm
+nasm -felf  sys_fchown32.asm
+nasm -felf  sys_rmdir.asm
+nasm -felf  sys_fchown.asm
+nasm -felf  sys_rt_sigaction.asm
+nasm -felf  sys_fchownat.asm
+nasm -felf  sys_rt_sigpending.asm
+nasm -felf  sys_fcntl64.asm
+nasm -felf  sys_rt_sigprocmask.asm
+nasm -felf  sys_fcntl.asm
+nasm -felf  sys_rt_sigqueueinfo.asm
+nasm -felf  sys_fdatasync.asm
+nasm -felf  sys_rt_sigreturn.asm
+nasm -felf  sys_fgetxattr.asm
+nasm -felf  sys_rt_sigsuspend.asm
+nasm -felf  sys_flistxattr.asm
+nasm -felf  sys_rt_sigtimedwait.asm
+nasm -felf  sys_flock.asm
+nasm -felf  sys_sched_getaffinity.asm
+nasm -felf  sys_fork.asm
+nasm -felf  sys_sched_getparam.asm
+nasm -felf  sys_fremovexattr.asm
+nasm -felf  sys_sched_get_priority_max.asm
+nasm -felf  sys_fsetxattr.asm
+nasm -felf  sys_sched_get_priority_min.asm
+nasm -felf  sys_fstat64.asm
+nasm -felf  sys_sched_getscheduler.asm
+nasm -felf  sys_fstat.asm
+nasm -felf  sys_sched_rr_get_interval.asm
+nasm -felf  sys_fstatat64.asm
+nasm -felf  sys_sched_setaffinity.asm
+nasm -felf  sys_fstatfs64.asm
+nasm -felf  sys_sched_setparam.asm
+nasm -felf  sys_fstatfs.asm
+nasm -felf  sys_sched_setscheduler.asm
+nasm -felf  sys_fsync.asm
+nasm -felf  sys_sched_yield.asm
+nasm -felf  sys_ftime.asm
+nasm -felf  sys_select.asm
+nasm -felf  sys_ftruncate64.asm
+nasm -felf  sys_sendfile64.asm
+nasm -felf  sys_ftruncate.asm
+nasm -felf  sys_sendfile.asm
+nasm -felf  sys_futex.asm
+nasm -felf  sys_setdomainname.asm
+nasm -felf  sys_futimesat.asm
+nasm -felf  sys_setfsgid32.asm
+nasm -felf  sys_getcpu.asm
+nasm -felf  sys_setfsgid.asm
+nasm -felf  sys_getcwd.asm
+nasm -felf  sys_setfsuid32.asm
+nasm -felf  sys_getdents64.asm
+nasm -felf  sys_setfsuid.asm
+nasm -felf  sys_getdents.asm
+nasm -felf  sys_setgid32.asm
+nasm -felf  sys_getegid32.asm
+nasm -felf  sys_setgid.asm
+nasm -felf  sys_getegid.asm
+nasm -felf  sys_setgroups32.asm
+nasm -felf  sys_geteuid32.asm
+nasm -felf  sys_setgroups.asm
+nasm -felf  sys_geteuid.asm
+nasm -felf  sys_sethostname.asm
+nasm -felf  sys_getgid32.asm
+nasm -felf  sys_setitimer.asm
+nasm -felf  sys_getgid.asm
+nasm -felf  sys_set_mempolicy.asm
+nasm -felf  sys_getgroups32.asm
+nasm -felf  sys_setpgid.asm
+nasm -felf  sys_getgroups.asm
+nasm -felf  sys_setpriority.asm
+nasm -felf  sys_getitimer.asm
+nasm -felf  sys_setregid32.asm
+nasm -felf  sys_get_kernel_syms.asm
+nasm -felf  sys_setregid.asm
+nasm -felf  sys_get_mempolicy.asm
+nasm -felf  sys_setresgid32.asm
+nasm -felf  sys_getpgid.asm
+nasm -felf  sys_setresgid.asm
+nasm -felf  sys_getpgrp.asm
+nasm -felf  sys_setresuid32.asm
+nasm -felf  sys_getpid.asm
+nasm -felf  sys_setresuid.asm
+nasm -felf  sys_getpmsg.asm
+nasm -felf  sys_setreuid32.asm
+nasm -felf  sys_getppid.asm
+nasm -felf  sys_setreuid.asm
+nasm -felf  sys_getpriority.asm
+nasm -felf  sys_setrlimit.asm
+nasm -felf  sys_getresgid32.asm
+nasm -felf  sys_set_robust_list.asm
+nasm -felf  sys_getresgid.asm
+nasm -felf  sys_setsid.asm
+nasm -felf  sys_getresuid32.asm
+nasm -felf  sys_set_thread_area.asm
+nasm -felf  sys_getresuid.asm
+nasm -felf  sys_set_tid_address.asm
+nasm -felf  sys_getrlimit.asm
+nasm -felf  sys_settimeofday.asm
+nasm -felf  sys_get_robust_list.asm
+nasm -felf  sys_setuid32.asm
+nasm -felf  sys_getrusage.asm
+nasm -felf  sys_setuid.asm
+nasm -felf  sys_getsid.asm
+nasm -felf  sys_setxattr.asm
+nasm -felf  sys_get_thread_area.asm
+nasm -felf  sys_sgetmask.asm
+nasm -felf  sys_gettid.asm
+nasm -felf  sys_sigaction.asm
+nasm -felf  sys_gettimeofday.asm
+nasm -felf  sys_sigaltstack.asm
+nasm -felf  sys_getuid32.asm
+nasm -felf  sys_signal.asm
+nasm -felf  sys_getuid.asm
+nasm -felf  sys_signalfd4.asm
+nasm -felf  sys_getxattr.asm
+nasm -felf  sys_signalfd.asm
+nasm -felf  sys_gtty.asm
+nasm -felf  sys_sigpending.asm
+nasm -felf  sys_idle.asm
+nasm -felf  sys_sigprocmask.asm
+nasm -felf  sys_init_module.asm
+nasm -felf  sys_sigreturn.asm
+nasm -felf  sys_inotify_add_watch.asm
+nasm -felf  sys_sigsuspend.asm
+nasm -felf  sys_inotify_init1.asm
+nasm -felf  sys_socketcall.asm
+nasm -felf  sys_inotify_init.asm
+nasm -felf  sys_splice.asm
+nasm -felf  sys_inotify_rm_watch.asm
+nasm -felf  sys_ssetmask.asm
+nasm -felf  sys_io_cancel.asm
+nasm -felf  sys_stat64.asm
+nasm -felf  sys_ioctl.asm
+nasm -felf  sys_stat.asm
+nasm -felf  sys_io_destroy.asm
+nasm -felf  sys_statfs64.asm
+nasm -felf  sys_io_getevents.asm
+nasm -felf  sys_statfs.asm
+nasm -felf  sys_ioperm.asm
+nasm -felf  sys_stime.asm
+nasm -felf  sys_iopl.asm
+nasm -felf  sys_stty.asm
+nasm -felf  sys_ioprio_get.asm
+nasm -felf  sys_swapoff.asm
+nasm -felf  sys_ioprio_set.asm
+nasm -felf  sys_swapon.asm
+nasm -felf  sys_io_setup.asm
+nasm -felf  sys_symlink.asm
+nasm -felf  sys_io_submit.asm
+nasm -felf  sys_symlinkat.asm
+nasm -felf  sys_ipc.asm
+nasm -felf  sys_sync.asm
+nasm -felf  sys_kexec_load.asm
+nasm -felf  sys_sync_file_range.asm
+nasm -felf  sys_keyctl.asm
+nasm -felf  sys__sysctl.asm
+nasm -felf  sys_kill.asm
+nasm -felf  sys_sysfs.asm
+nasm -felf  sys_lchown32.asm
+nasm -felf  sys_sysinfo.asm
+nasm -felf  sys_lchown.asm
+nasm -felf  sys_syslog.asm
+nasm -felf  sys_lgetxattr.asm
+nasm -felf  sys_tee.asm
+nasm -felf  sys_link.asm
+nasm -felf  sys_tgkill.asm
+nasm -felf  sys_linkat.asm
+nasm -felf  sys_time.asm
+nasm -felf  sys_listxattr.asm
+nasm -felf  sys_timer_create.asm
+nasm -felf  sys_llistxattr.asm
+nasm -felf  sys_timerfd.asm
+nasm -felf  sys__llseek.asm
+nasm -felf  sys_timerfd_create.asm
+nasm -felf  sys_lock.asm
+nasm -felf  sys_timerfd_gettime.asm
+nasm -felf  sys_lookup_dcookie.asm
+nasm -felf  sys_timerfd_settime.asm
+nasm -felf  sys_lremovexattr.asm
+nasm -felf  sys_times.asm
+nasm -felf  sys_lseek.asm
+nasm -felf  sys_tkill.asm
+nasm -felf  sys_lsetxattr.asm
+nasm -felf  sys_truncate64.asm
+nasm -felf  sys_lstat64.asm
+nasm -felf  sys_truncate.asm
+nasm -felf  sys_lstat.asm
+nasm -felf  sys_ugetrlimit.asm
+nasm -felf  sys_madvise1.asm
+nasm -felf  sys_ulimit.asm
+nasm -felf  sys_madvise.asm
+nasm -felf  sys_umask.asm
+nasm -felf  sys_mbind.asm
+nasm -felf  sys_umount2.asm
+nasm -felf  sys_migrate_pages.asm
+nasm -felf  sys_umount.asm
+nasm -felf  sys_mincore.asm
+nasm -felf  sys_uname.asm
+nasm -felf  sys_mkdir.asm
+nasm -felf  sys_unlink.asm
+nasm -felf  sys_mkdirat.asm
+nasm -felf  sys_unlinkat.asm
+nasm -felf  sys_mknod.asm
+nasm -felf  sys_unshare.asm
+nasm -felf  sys_mknodat.asm
+nasm -felf  sys_uselib.asm
+nasm -felf  sys_mlockall.asm
+nasm -felf  sys_ustat.asm
+nasm -felf  sys_mlock.asm
+nasm -felf  sys_utime.asm
+nasm -felf  sys_mmap2.asm
+nasm -felf  sys_utimensat.asm
+nasm -felf  sys_mmap.asm
+nasm -felf  sys_utimes.asm
+nasm -felf  sys_modify_ldt.asm
+nasm -felf  sys_vfork.asm
+nasm -felf  sys_mount.asm
+nasm -felf  sys_vhangup.asm
+nasm -felf  sys_move_pages.asm
+nasm -felf  sys_vm86.asm
+nasm -felf  sys_mprotect.asm
+nasm -felf  sys_vm86old.asm
+nasm -felf  sys_mpx.asm
+nasm -felf  sys_vmsplice.asm
+nasm -felf  sys_mq_open.asm
+nasm -felf  sys_vserver.asm
+nasm -felf  sys_mremap.asm
+nasm -felf  sys_wait4.asm
+nasm -felf  sys_msync.asm
+nasm -felf  sys_waitid.asm
+nasm -felf  sys_munlockall.asm
+nasm -felf  sys_waitpid.asm
+nasm -felf  sys_munlock.asm
+nasm -felf  sys_write.asm
+nasm -felf  sys_munmap.asm
+nasm -felf  sys_writev.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/syscall'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/char'
+touch *.asm
+nasm -felf  is_alpha.asm
+nasm -felf  is_number.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/char'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/str'
+touch *.asm
+nasm -felf  str_end.asm
+nasm -felf  str_insert.asm
+nasm -felf  str_len.asm
+nasm -felf  str_index.asm
+nasm -felf  str_join.asm
+nasm -felf  str_move.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/str'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/str_conv'
+touch *.asm
+nasm -felf  ascii2hex.asm
+nasm -felf  dword_to_l_ascii.asm
+nasm -felf  hexascii_to_bin.asm
+nasm -felf  ascii_to_dword.asm
+nasm -felf  dword_to_lpadded_ascii.asm
+nasm -felf  hex_to_hexascii.asm
+nasm -felf  byte2ascii.asm
+nasm -felf  dword_to_r_ascii.asm
+nasm -felf  nibble2ascii.asm
+nasm -felf  byte_to_hexascii.asm
+nasm -felf  float_to_ascii.asm
+nasm -felf  octal2ascii.asm
+nasm -felf  dword_to_ascii.asm
+nasm -felf  hex2ascii.asm
+nasm -felf  octalascii2dword.asm
+nasm -felf  dword_to_hexascii.asm
+nasm -felf  hex2str.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/str_conv'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/terminal'
+touch *.asm
+nasm -felf -O99  alt_screen.asm
+nasm -felf -O99  output_term_info.asm
+nasm -felf -O99  restore_cursor_from.asm
+nasm -felf -O99  get_string.asm
+nasm -felf -O99  output_termios.asm
+nasm -felf -O99  restore_norm_cursor.asm
+nasm -felf -O99  get_text.asm
+nasm -felf -O99  output_winsize.asm
+nasm -felf -O99  save_alt_cursor.asm
+nasm -felf -O99  is_raw_term.asm
+nasm -felf -O99  raw_set.asm
+nasm -felf -O99  save_cursor_at.asm
+nasm -felf -O99  key_flush.asm
+nasm -felf -O99  read_one_byte.asm
+nasm -felf -O99  save_norm_cursor.asm
+nasm -felf -O99  key_poll.asm
+nasm -felf -O99  read_stdin.asm
+nasm -felf -O99  scroll_region.asm
+nasm -felf -O99  key_string.asm
+nasm -felf -O99  read_term_info.asm
+nasm -felf -O99  set_screen_size.asm
+nasm -felf -O99  mouse_check.asm
+nasm -felf -O99  read_termios.asm
+nasm -felf -O99  stdout_str.asm
+nasm -felf -O99  mouse_enable.asm
+nasm -felf -O99  read_winsize.asm
+nasm -felf -O99  terminal_report.asm
+nasm -felf -O99  normal_screen.asm
+nasm -felf -O99  restore_alt_cursor.asm
+nasm -felf -O99  terminal_type.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/terminal'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/crt'
+touch *.asm
+nasm -felf  crt_char.asm
+nasm -felf  crt_screen.asm
+nasm -felf  crt_win_from_ptrs.asm
+nasm -felf  crt_clear.asm
+nasm -felf  crt_setup.asm
+nasm -felf  reset_clear_terminal.asm
+nasm -felf  crt_color.asm
+nasm -felf  crt_str.asm
+nasm -felf  reset_soft.asm
+nasm -felf  crt_cursor.asm
+nasm -felf  crt_table.asm
+nasm -felf  reset_terminal.asm
+nasm -felf  crt_horizontal.asm
+nasm -felf  crt_vertical.asm
+nasm -felf  save_restore_cursor.asm
+nasm -felf  crt_line.asm
+nasm -felf  crt_window2.asm
+nasm -felf  crt_move.asm
+nasm -felf  crt_window.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/crt'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/env'
+touch *.asm
+nasm -felf  env_exec.asm
+nasm -felf  env_shell.asm
+nasm -felf  find_env_variable.asm
+nasm -felf  env_home2.asm
+nasm -felf  env_stack.asm
+nasm -felf  lib_data.asm
+nasm -felf  env_home.asm
+nasm -felf  executable_on_path.asm
+nasm -felf  save_stack_ptrs.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/env'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/blk'
+touch *.asm
+nasm -felf  bit_set.asm
+nasm -felf  blk_clear.asm
+nasm -felf  blk_freplace.asm
+nasm -felf  blk_replace.asm
+nasm -felf  bit_set_list.asm
+nasm -felf  blk_fill_pkg.asm
+nasm -felf  blk_move.asm
+nasm -felf  blk_replace_table.asm
+nasm -felf  bit_test.asm
+nasm -felf  blk_find.asm
+nasm -felf  blk_pkg.asm
+nasm -felf  paragraph.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/blk'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/str_cmp'
+touch *.asm
+nasm -felf -O99  compare_mask.asm
+nasm -felf -O99  str_compare.asm
+nasm -felf -O99  str_replace_all.asm
+nasm -felf -O99  str_search.asm
+nasm -felf -O99  scan_buf.asm
+nasm -felf -O99  str_match.asm
+nasm -felf -O99  str_replace.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/str_cmp'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/dir'
+touch *.asm
+nasm -felf  dir_change.asm
+nasm -felf  dir_index.asm
+nasm -felf  dir_sort_by_name.asm
+nasm -felf  dir_close.asm
+nasm -felf  dir_open.asm
+nasm -felf  dir_sort_by_type.asm
+nasm -felf  dir_close_file.asm
+nasm -felf  dir_open_indexed.asm
+nasm -felf  dir_status.asm
+nasm -felf  dir_close_memory.asm
+nasm -felf  dir_open_sorted.asm
+nasm -felf  dir_type.asm
+nasm -felf  dir_create.asm
+nasm -felf  dir_read.asm
+nasm -felf  dir_walk.asm
+nasm -felf  dir_current.asm
+nasm -felf  dir_read_grow.asm
+nasm -felf  dir_delete.asm
+nasm -felf  dir_sort.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/dir'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/file'
+touch *.asm
+nasm -felf  file_access.asm
+nasm -felf  file_delete.asm
+nasm -felf  file_read.asm
+nasm -felf  mmap_close.asm
+nasm -felf  file_basics.asm
+nasm -felf  file_name.asm
+nasm -felf  file_rename.asm
+nasm -felf  mmap_open_ro.asm
+nasm -felf  file_copy.asm
+nasm -felf  file_path.asm
+nasm -felf  file_write.asm
+nasm -felf  mmap_open_rw.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/file'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/widget'
+touch *.asm
+nasm -felf -O99  browse_dir.asm
+nasm -felf -O99  form2_show.asm
+nasm -felf -O99  select_buffer_line.asm
+nasm -felf -O99  browse_dir_left.asm
+nasm -felf -O99  form.asm
+nasm -felf -O99  select_file_line.asm
+nasm -felf -O99  browse_dir_right.asm
+nasm -felf -O99  make_box.asm
+nasm -felf -O99  select_list_engine.asm
+nasm -felf -O99  dir_browse.asm
+nasm -felf -O99  message_box.asm
+nasm -felf -O99  select_list_setup.asm
+nasm -felf -O99  dir_browse_left.asm
+nasm -felf -O99  popup_menu.asm
+nasm -felf -O99  show_box.asm
+nasm -felf -O99  dir_browse_right.asm
+nasm -felf -O99  select_1up_left.asm
+nasm -felf -O99  string_form.asm
+nasm -felf -O99  edit_file_in_box.asm
+nasm -felf -O99  select_1up_list_centered.asm
+nasm -felf -O99  view_file.asm
+nasm -felf -O99  edit_text_in_box.asm
+nasm -felf -O99  select_1up_list_full.asm
+nasm -felf -O99  form2_input.asm
+nasm -felf -O99  select_1up_right.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/widget'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/sort'
+touch *.asm
+nasm -felf  sort_bubble.asm
+nasm -felf  sort_dword_array.asm
+nasm -felf  sort_selection.asm
+nasm -felf  sort_dword_array2.asm
+nasm -felf  sort_merge.asm
+nasm -felf  sort_dword_array3.asm
+nasm -felf  sort_merge_lines.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/sort'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/sys'
+touch *.asm
+nasm -felf  delay.asm
+nasm -felf  sys_pipe_capture.asm
+nasm -felf  sys_wrap.asm
+nasm -felf  file_exec_path.asm
+nasm -felf  sys_pipe_feed.asm
+nasm -felf  sys_wrap_plus.asm
+nasm -felf  is_multi_cpu.asm
+nasm -felf  sys_run.asm
+nasm -felf  sys_wrap_shell.asm
+nasm -felf  launch.asm
+nasm -felf  sys_shell_alt.asm
+nasm -felf  wait_event.asm
+nasm -felf  our_core.asm
+nasm -felf  sys_shell.asm
+nasm -felf  wait_pid.asm
+nasm -felf  poll_fd.asm
+nasm -felf  sys_shell_cmd.asm
+nasm -felf  select_core.asm
+nasm -felf  sys_shell_plus.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/sys'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/str_parse'
+touch *.asm
+nasm -felf  lookup_token.asm
+nasm -felf  parse_token.asm
+nasm -felf  read_setup.asm
+nasm -felf  write_setup.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/str_parse'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/date'
+touch *.asm
+nasm -felf  ascii2days.asm
+nasm -felf  days2dateregs.asm
+nasm -felf  month_name.asm
+nasm -felf  seconds2bins.asm
+nasm -felf  ascii2regs.asm
+nasm -felf  days_in_month.asm
+nasm -felf  raw2ascii.asm
+nasm -felf  seconds2dateregs.asm
+nasm -felf  bins2ascii.asm
+nasm -felf  get_raw_time.asm
+nasm -felf  raw2seconds.asm
+nasm -felf  seconds2timeregs.asm
+nasm -felf  day_name.asm
+nasm -felf  leap_check.asm
+nasm -felf  regs2ascii.asm
+nasm -felf  days2ascii.asm
+nasm -felf  leap_count.asm
+nasm -felf  regs2days.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/date'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/process'
+touch *.asm
+nasm -felf -O99  change_tty_group.asm
+nasm -felf -O99  get_parent_process_id.asm
+nasm -felf -O99  process_info_pidn.asm
+nasm -felf -O99  check_process.asm
+nasm -felf -O99  get_proc_info.asm
+nasm -felf -O99  process_info_us.asm
+nasm -felf -O99  create_group.asm
+nasm -felf -O99  get_tty_group.asm
+nasm -felf -O99  process_search.asm
+nasm -felf -O99  get_group.asm
+nasm -felf -O99  join_group.asm
+nasm -felf -O99  process_walk.asm
+nasm -felf -O99  get_our_group.asm
+nasm -felf -O99  kill_process.asm
+nasm -felf -O99  get_our_process_id.asm
+nasm -felf -O99  process_info_pid.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/process'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/log-error'
+touch *.asm
+nasm -felf  buffer_hex.asm
+nasm -felf  install_signals.asm
+nasm -felf  log_termios.asm
+nasm -felf  buffer_hex_line.asm
+nasm -felf  log.asm
+nasm -felf  show_hex.asm
+nasm -felf  err_msg.asm
+nasm -felf  log_fd.asm
+nasm -felf  write_char.asm
+nasm -felf  err_number.asm
+nasm -felf  log_process_info.asm
+nasm -felf  write_hex.asm
+nasm -felf  hex_dump.asm
+nasm -felf  log_signals.asm
+nasm -felf  write_hex_line.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/log-error'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/random'
+touch *.asm
+nasm -felf  random1.asm
+nasm -felf  random2.asm
+nasm -felf  random3.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/random'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/draw'
+touch *.asm
+nasm -felf  draw_box.asm
+nasm -felf  draw_off.asm
+nasm -felf  draw_on.asm
+nasm -felf  draw_table.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/draw'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/file2'
+touch *.asm
+nasm -felf  block_close.asm
+nasm -felf  block_read.asm
+nasm -felf  block_write.asm
+nasm -felf  block_open.asm
+nasm -felf  block_read_home_all.asm
+nasm -felf  block_write_home_all.asm
+nasm -felf  block_open_read.asm
+nasm -felf  block_seek.asm
+nasm -felf  block_read_all.asm
+nasm -felf  block_write_all.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/file2'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/database'
+touch *.asm
+nasm -felf  database_close.asm
+nasm -felf  database_insert.asm
+nasm -felf  database_record_size.asm
+nasm -felf  database_extract.asm
+nasm -felf  database_open.asm
+nasm -felf  database_search.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/database'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/hash'
+touch *.asm
+nasm -felf  hash_add.asm
+nasm -felf  hash_lookup_next.asm
+nasm -felf  hash_setup.asm
+nasm -felf  hash_archive.asm
+nasm -felf  hash_remove.asm
+nasm -felf  record.asm
+nasm -felf  hash_lookup.asm
+nasm -felf  hash_restore.asm
+nasm -felf  string.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/hash'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/menu'
+touch *.asm
+nasm -felf  crt_mouse_line.asm
+nasm -felf  key_decode.asm
+nasm -felf  menu_display.asm
+nasm -felf  key_decode3.asm
+nasm -felf  menu_decode.asm
+nasm -felf  mouse_line_decode.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/menu'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/signal'
+touch *.asm
+nasm -felf  signal_handler_install.asm
+nasm -felf  signal_mask.asm
+nasm -felf  signal_wait.asm
+nasm -felf  signal_handler_remove.asm
+nasm -felf  signal_pending.asm
+nasm -felf  signal_handler_status.asm
+nasm -felf  signal_send.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/signal'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/timer'
+touch *.asm
+nasm -felf  timer_create.asm
+nasm -felf  timer_getoverrun.asm
+nasm -felf  timer_settime.asm
+nasm -felf  timer_delete.asm
+nasm -felf  timer_gettime.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/timer'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/trace'
+touch *.asm
+nasm -felf  ext_regs.asm
+nasm -felf  peek_user.asm
+nasm -felf  trace.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/trace'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/math'
+touch *.asm
+nasm -felf  dword_divide.asm
+nasm -felf  quad_compare.asm
+nasm -felf  quad_multiply.asm
+nasm -felf  quad_subtract.asm
+nasm -felf  quad_add.asm
+nasm -felf  quad_divide.asm
+nasm -felf  quad_negate.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/math'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/memory'
+touch *.asm
+nasm -felf  chain_double.asm
+nasm -felf  memory_init.asm
+nasm -felf  shared_close.asm
+nasm -felf  unchain_single.asm
+nasm -felf  chain_single.asm
+nasm -felf  set_memory.asm
+nasm -felf  shared_open.asm
+nasm -felf  memory.asm
+nasm -felf  shared_attach.asm
+nasm -felf  unchain_double.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/memory'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/xterm'
+touch *.asm
+nasm -felf  screen_size.asm
+nasm -felf  win_lower.asm
+nasm -felf  win_refresh.asm
+nasm -felf  win_txt_resize.asm
+nasm -felf  win_deiconify.asm
+nasm -felf  win_maximize.asm
+nasm -felf  win_resize.asm
+nasm -felf  win_txt_size.asm
+nasm -felf  win_font.asm
+nasm -felf  win_move.asm
+nasm -felf  win_restore.asm
+nasm -felf  win_iconify.asm
+nasm -felf  win_posn.asm
+nasm -felf  win_size.asm
+nasm -felf  win_lines.asm
+nasm -felf  win_raise.asm
+nasm -felf  win_title.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/xterm'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/dis'
+touch *.asm
+nasm -felf -O99  dis.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/dis'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/compress'
+touch *.asm
+nasm -felf  decrypt.asm
+nasm -felf  encrypt.asm
+nasm -felf  lz_compress.asm
+nasm -felf  lz_decompress.asm
+nasm -felf  pak.asm
+nasm -felf  upak.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/compress'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/sound'
+touch *.asm
+nasm -felf  close_sound_device.asm
+nasm -felf  flush_sound_device.asm
+nasm -felf  open_sound_device.asm
+nasm -felf  compute_samples_per_wave.asm
+nasm -felf  make_sound.asm
+nasm -felf  set_sound_device.asm
+nasm -felf  compute_wave_count.asm
+nasm -felf  metronome.asm
+nasm -felf  write_sound_device.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/sound'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/list'
+touch *.asm
+nasm -felf  list_check_end.asm
+nasm -felf  list_get_from_front.asm
+nasm -felf  put_pop_dword.asm
+nasm -felf  list_check_front.asm
+nasm -felf  list_put_at_end.asm
+nasm -felf  put_pop_string.asm
+nasm -felf  list_get_from_end.asm
+nasm -felf  list_put_at_front.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/list'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/terminfo'
+touch *.asm
+nasm -felf -O99  terminfo_decode_setup.asm
+nasm -felf -O99  terminfo_extract_number.asm
+nasm -felf -O99  terminfo_read.asm
+nasm -felf -O99  terminfo_extract_flag.asm
+nasm -felf -O99  terminfo_key_decode1.asm
+nasm -felf -O99  terminfo_extract_key.asm
+nasm -felf -O99  terminfo_key_decode2.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/terminfo'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/dcache'
+touch *.asm
+nasm -felf -O 999  dcache_buf_cursor.asm
+nasm -felf -O 999  dcache_read_color.asm
+nasm -felf -O 999  dcache_size.asm
+nasm -felf -O 999  dcache_clear.asm
+nasm -felf -O 999  dcache_read_cursor.asm
+nasm -felf -O 999  dcache_str.asm
+nasm -felf -O 999  dcache_color_range.asm
+nasm -felf -O 999  dcache_screen_cursor.asm
+nasm -felf -O 999  dcache_write_block.asm
+nasm -felf -O 999  dcache_current_color.asm
+nasm -felf -O 999  dcache_set_all_writes.asm
+nasm -felf -O 999  dcache_write_line.asm
+nasm -felf -O 999  dcache_flush.asm
+nasm -felf -O 999  dcache_set_color.asm
+nasm -felf -O 999  dcache_write_repeat.asm
+nasm -felf -O 999  dcache_read_char.asm
+nasm -felf -O 999  dcache_setup.asm
+nasm -felf -O 999  dcache_write_string.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/dcache'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/vt'
+touch *.asm
+nasm -felf -O 999  vt_clear.asm
+nasm -felf -O 999  vt_out.asm
+nasm -felf -O 999  vt_set_all_writes.asm
+nasm -felf -O 999  vt_flush.asm
+nasm -felf -O 999  vt_ptty.asm
+nasm -felf -O 999  vt_setup.asm
+nasm -felf -O 999  vt_in.asm
+nasm -felf -O 999  vt_rowcol.asm
+nasm -felf -O 999  vt_subs_plus_data.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/vt'
+make[1]: Entering directory `/home/jeff/asm/asmtools/AsmLib/key_sig'
+touch *.asm
+nasm -felf -O 999  event_close.asm
+nasm -felf -O 999  key_decode.asm
+nasm -felf -O 999  key_ready.asm
+nasm -felf -O 999  sigaction.asm
+nasm -felf -O 999  event_setup.asm
+nasm -felf -O 999  key_put.asm
+nasm -felf -O 999  key_setup.asm
+nasm -felf -O 999  signal_attach.asm
+nasm -felf -O 999  key_check.asm
+nasm -felf -O 999  key_read.asm
+nasm -felf -O 999  open_tty.asm
+nasm -felf -O 999  signal_install_group.asm
+make[1]: Leaving directory `/home/jeff/asm/asmtools/AsmLib/key_sig'
+find . -name '*.o' -exec ar rcs asmlib.a '{}' ';'
+mv -f asmlib.a ../
